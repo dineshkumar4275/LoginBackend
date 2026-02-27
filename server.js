@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://sridineshinteriros.shop',
+    'https://sridineshinteriros.shop/login',
     'https://www.sridineshinteriros.shop'
 ],
     credentials: true,
